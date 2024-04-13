@@ -28,4 +28,3 @@ formElement.addEventListener("submit", (event) => {
 console.log(result.toFixed(2))
 resultElement.innerText = `${result.toFixed(2)} ${currency}`;
 })
-
