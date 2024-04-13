@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mały kantor</title>
+    <script src="JS/script.js" defer></script>
+    <link href="CSS/style.css" rel="stylesheet">
+    <link href="CSS/form.css" rel="stylesheet">
+    <link href="CSS/normalize.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body class="body lato-regular">
+    <form class="js-form form" method="get">
+        <fieldset class="form__fieldset">
+            <legend class="form__legend">Przelicznik walut</legend>
+            <p>
+                <label>
+                    <span class="form__labelText">Wpisz wartość w PLN</span><input class="js-amount form__input"
+                        type="number" name="value" placeholder="Np. 100" required min="1">
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    <span class="form__labelText">Wybierz walutę</span>
+                    <select class="js-currency form__input form__input--select" name="currency">
+                        <option class="js-currency-EUR" value="EUR" selected>EUR</option>
+                        <option value="USD">USD</option>
+                        <option value="GBP">GBP</option>
+                    </select>
+                </label>
+            </p>
+        </fieldset>
+        <p>
+            <button class="button">Przelicz</button>
+        </p>
+        <p>
+            <button class="button" type="reset">Wyczyść</button>
+        </p>
+        <p>Wartość wynosi: <strong class="js-result">N/A</strong>
+        </p>
+    </form>
+
+    <footer class="footer lato-regular-italic">Kursy walut pochodzą z dnia 05.04.2024</footer>
+
+</body>
+
+</html>

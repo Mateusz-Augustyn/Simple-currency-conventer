@@ -1,0 +1,39 @@
+.form {
+    margin-top: 150px;
+}
+
+.form__legend {
+    font-weight: 900;
+    font-size: x-large;
+    padding: 10px 20px;
+    background-color: teal;
+    color: #eee;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.form__fieldset {
+    border: 5px solid teal;
+    border-radius: 10px;
+    box-shadow: 10px 10px 10px rgba(81, 76, 76, 0.297);
+    margin-bottom: 30px;
+}
+
+.form__labelText {
+    margin-right: 10px;
+}
+
+.form__input {
+    padding: 10px 30px;
+    max-width: 150px;
+    border-radius: 5px;
+    border: 1px ridge teal;
+    margin: 10px;
+    margin-left: 80px;
+    text-align: center;
+}
+
+.form__input--select {
+    margin-left: 118px;
+    padding: 10px 47px
+}
