@@ -5,7 +5,7 @@
 
 ## Describtion
 
-Simple currency converter on GitHub, allowing quick conversion from Polish złoty (PLN) to euro (EUR), US dollar (USD), and British pound (GBP). The application provides an intuitive user interface making it easy to track values in different currencies.
+Simple currency converter, allowing quick conversion from Polish złoty (PLN) to euro (EUR), US dollar (USD), and British pound (GBP). The application provides an intuitive user interface making it easy to track values in different currencies.
 
 ## Demo
 https://mateusz-augustyn.github.io/Simple-currency-conventer/
